@@ -1,0 +1,15 @@
+app.py  code where flask app 
+run.py app run code 
+requirement.txt here they add particular version, which we want to install.
+
+docker build -t flask-dock-2 .
+
+image name
+
+  port is reuired bcx its web app
+
+ docker run -d -p 80:80 --name flask-dock-cont flask-dock-2
+
+container name:flask-dock-cont
+
+output: Hello Dosto, welcome to DevOps Zero To Hero (Junoon Batch 9) 
