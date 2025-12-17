@@ -1,0 +1,10 @@
+docker build -t java-app .  #here we create image in local
+
+here tha image name is java-app (in docker desktop also)
+
+docker run java-app
+
+when we do some changes in code which is on host machine, then you want update image also.
+
+
+
